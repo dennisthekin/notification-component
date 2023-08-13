@@ -9,3 +9,42 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
+
+body {
+    background-color: #F3EBFE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    width: 430px;
+    padding: 30px 30px 30px 50px;
+    border-radius: 20px;
+
+    box-shadow: 5px 8px 20px #cac6c6;
+}
+
+.card-top {
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    color: #39355C;
+    font-size: 20px;
+    
+}
+
+.btn-close {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+}
