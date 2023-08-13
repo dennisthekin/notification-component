@@ -25,12 +25,10 @@ body {
     width: 430px;
     padding: 30px 30px 30px 50px;
     border-radius: 20px;
-
     box-shadow: 5px 8px 20px #cac6c6;
 }
 
 .card-top {
-    /* border: 1px solid pink; */
     display: flex;
     justify-content: space-between;
 }
@@ -49,25 +47,17 @@ body {
 }
 
 .card-mid {
-    /* box model view of element */
-    /* border: 1px solid green; */
-    
     display: flex;
-
-    /* space the items */
-    gap: 15px;  
-    /* space the mid section for the title and buttons */
+    gap: 15px;
     margin: 20px 0 15px 0;
 }
 
 .card-icon {
     background-color: #CA8CFA;
-    background-image: linear-gradient(300deg,hsl(274, 92%, 76%), hsl(155, 43%, 73%));
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    
-    /* center bell icon */
+    background-image: linear-gradient(300deg, hsl(274, 92%, 76%), hsl(155, 43%, 73%));
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,4 +91,3 @@ body {
     color: green;
     border: 1px solid green;
 }
-
