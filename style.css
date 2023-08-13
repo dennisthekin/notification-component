@@ -56,6 +56,8 @@ body {
 
     /* space the items */
     gap: 15px;  
+    /* space the mid section for the title and buttons */
+    margin: 20px 0 15px 0;
 }
 
 .card-icon {
