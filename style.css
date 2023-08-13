@@ -30,6 +30,7 @@ body {
 }
 
 .card-top {
+    /* border: 1px solid pink; */
     display: flex;
     justify-content: space-between;
 }
@@ -37,7 +38,7 @@ body {
 .card-title {
     color: #39355C;
     font-size: 20px;
-    
+    align-self: flex-end;
 }
 
 .btn-close {
@@ -54,7 +55,7 @@ body {
     display: flex;
 
     /* space the items */
-    gap: 15px;
+    gap: 15px;  
 }
 
 .card-icon {
@@ -73,6 +74,7 @@ body {
     text-decoration: none;
     color: #000;
     cursor: pointer;
+    align-self: center;
 }
 
 .card-bottom {
