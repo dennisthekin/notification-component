@@ -49,7 +49,7 @@ body {
 
 .card-mid {
     /* box model view of element */
-    border: 1px solid green;
+    /* border: 1px solid green; */
     
     display: flex;
 
@@ -73,5 +73,27 @@ body {
     text-decoration: none;
     color: #000;
     cursor: pointer;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+.btn-block {
+    color: red;
+    border: 1px solid red;
+}
+
+.btn-allow {
+    color: green;
+    border: 1px solid green;
 }
 
